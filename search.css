@@ -1,0 +1,58 @@
+*{
+    width: 100vw;
+    height: 100vh;
+    
+}   
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient( to bottom right, transparent, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(to bottom left,  rgba(0, 0, 0, 0.5),  rgba(133, 25, 68, 1), transparent), linear-gradient(black, black);
+}
+#header{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(64, 224, 208, 0.623);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    padding: 5px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5%;
+}
+
+#search-input{
+    width: 85%;
+    height: 80px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.align-search{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-button{
+    width: 5%;
+    height: 30px;
+}
+#resultado{
+    width: 100%;
+    height: 100%;
+    background-color:bisque ;
+}

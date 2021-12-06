@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Home.css'>
+    <script src="./js/getInfos.js"></script>
+    <script src="./js/rotas.js"></script>
+
+</head>
+
+<body onload="dados()">
+
+    <div class="header" id="header" >
+        Bem Vindo ${usuario} aqui você verá informações sobre: 
+
+    </div>
+
+
+    <div class="opcoes">
+        <div class="align-grid">
+            <div id="ops1" onclick="searchPage()">
+                Buscar algo relacionado ao perfil de  ${perfil-git}
+            </div>
+        </div>
+        <div class="align-grid">
+            <div id="ops2" >
+                Projetos/Repositorios
+            </div>
+        </div>
+        <div class="align-grid">
+            <div id="ops3">
+               Seguidores de  ${perfil-git}
+            </div>
+        </div>
+        <div class="align-grid">
+            <div id="ops4">
+                Equipes
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

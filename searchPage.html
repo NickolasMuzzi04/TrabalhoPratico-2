@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='search.css'>
+    <script src="./js/getInfoSearch.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body onload="search()">
+    
+    <div id="header" >
+        Bem Vindo ${usuario} aqui você irá buscar informações sobre: 
+    </div>
+
+   <div class="align-search"> 
+       <input id="search-input" type="search" placeholder="Buscar...">
+        <button type="submit" class="search-button" onclick="searchBox()">Buscar</button>    
+
+    </div>
+    <div id="resultado">
+        
+    </div>
+</body>
+</html>
